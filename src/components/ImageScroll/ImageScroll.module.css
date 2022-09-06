@@ -1,0 +1,40 @@
+.container {
+	width: 80vw;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.imageList {
+	width: 800px;
+	margin: 0 auto;
+	padding: 180px 0;
+	list-style: none;
+}
+
+.imageItem {
+	display: flex;
+	width: 100%;
+}
+.imageItem:not(:first-of-type) {
+	margin: 180px 0 0 0;
+}
+
+.imageWrapper {
+	display: block;
+	height: 500px;
+	margin: 0 auto;
+}
+
+.imageWrapper > img {
+	height: 100%;
+	object-fit: cover;
+}
+
+.canvas {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vw;
+	z-index: 1;
+}
